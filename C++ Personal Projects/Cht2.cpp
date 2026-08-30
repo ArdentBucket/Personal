@@ -39,19 +39,19 @@ int main(){
 //    std::cout << x;
 
 //    std::cout << (char) 100;
-
-    int correct = 32;
-    int questions = 50;
+    int questions = 100;
+    int correct = 70;
     double score = correct/(double)questions * 100;     // (double) is used to make sure value isn't removed/truncated from "questions"
                                                         // from being an int not a double
     std::cout << score << "% \n";
 
-        if (score <= 69)
-    {
-        std::cout << "You Failed";
+        if (score <= 69){
+            std::cout << "You Failed";
+        }
         
-    }
-    
+        if (score > 69){
+            std::cout << "You Passed🥳";
+        }
 
     return 0;
 }
