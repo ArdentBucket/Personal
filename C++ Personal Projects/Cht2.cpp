@@ -44,7 +44,14 @@ int main(){
     int questions = 50;
     double score = correct/(double)questions * 100;     // (double) is used to make sure value isn't removed/truncated from "questions"
                                                         // from being an int not a double
-    std::cout << score << "%";
+    std::cout << score << "% \n";
+
+        if (score <= 69)
+    {
+        std::cout << "You Failed";
+        
+    }
+    
 
     return 0;
 }
