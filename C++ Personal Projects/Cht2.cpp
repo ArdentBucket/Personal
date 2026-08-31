@@ -30,19 +30,20 @@ int main(){
 
 //    double x = 3.14;
 //    double y = 4;
-//    double z;
+    double z;
 
 //    z = std::max(x, y);                        //max() compares and tells whats the highest number
 //    z = std::min(x, y);                        //min() compares and tells whats the lowest number
 //    z = pow(2, 4);                             //pow() raises value 1 to the power of value 2
-//    z = sqrt(9);                               //sqrt() square root the value
+    z = sqrt(196);                               //sqrt() square root the value
 //    z = abs(-3);                               //abs() finds the absolute value of the value (How far away is it from 0)
 //    z = round(x);                              //round() rounds the value to the nearest whole number
 //    z = ceil(x);                               //ceil() rounds the value up
 //    z = floor(x);                              //floor() rounds the value down
 
 
-//    std::cout << z;
+    std::cout << z << "\n";
+
                                                  // "#include <cmath>" includes more math operations to use       
 
 ///////////////////////////// type conversion /////////////////////////////
