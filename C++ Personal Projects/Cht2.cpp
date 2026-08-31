@@ -28,9 +28,9 @@ int main(){
 
     //std::cout << remainder << "\n";
 
-    double x = 3.14;
-    double y = 4;
-    double z;
+//    double x = 3.14;
+//    double y = 4;
+//    double z;
 
 //    z = std::max(x, y);                        //max() compares and tells whats the highest number
 //    z = std::min(x, y);                        //min() compares and tells whats the lowest number
@@ -42,7 +42,7 @@ int main(){
 //    z = floor(x);                              //floor() rounds the value down
 
 
-    std::cout << z;
+//    std::cout << z;
                                                  // "#include <cmath>" includes more math operations to use       
 
 ///////////////////////////// type conversion /////////////////////////////
@@ -57,19 +57,19 @@ int main(){
 //    std::cout << x;
 
 //    std::cout << (char) 100;
-//    int questions = 100;
-//    int correct = 70;
-//    double score = correct/(double)questions * 100;     // (double) is used to make sure value isn't removed/truncated from "questions"
+    int questions = 100;
+    int correct = 70;
+    double score = correct/(double)questions * 100;     // (double) is used to make sure value isn't removed/truncated from "questions"
 //                                                        // from being an int not a double
-//    std::cout << score << "% \n";
+    std::cout << score << "% \n";
 
-//        if (score <= 69){
-//            std::cout << "You Failed";
-//        }
+        if (score <= 69){
+            std::cout << "You Failed";
+        }
         
-//        if (score > 69){
-//            std::cout << "You Passed🥳";
-//        }
+        if(score > 69){
+            std::cout << "You Passed🥳";
+        }
 
 ///////////////////////////// cout/cin /////////////////////////////
 //          cout << (Insertion operator)
