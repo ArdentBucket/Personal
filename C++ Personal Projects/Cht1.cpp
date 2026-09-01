@@ -42,12 +42,12 @@ int main(){
     bool forSale = false;
 
     //string (Objexts that represents a sequence of text)
-    std::string name = "cuh";
-    std::string day = "Thursday";
-    std::string food = "burburs";
-    std::string address = "1987 freddy fabear st.";
+    text_t name = "cuh";
+    text_t day = "Thursday";
+    text_t food = "burburs";
+    text_t address = "1987 freddy fabear st.";
 
-    //std::cout << "Hewwo " << name << "\n" << "Your fatass likes to eat " << food << "😭✌️";
+    std::cout << "Hewwo " << name << "\n" << "Your fatass likes to eat " << food << ", \n";
 
 
 ///////////////////////////// CONSTANT /////////////////////////////
@@ -55,17 +55,17 @@ int main(){
 
     //constwill specify that a value is constant
     //tells the compiler to prevent anything from modifying the value
-    const double PI = 3.14159;
-    double radius = 10;
-    double circumference = 2 * PI * radius;
+    // const double PI = 3.14159;
+    // double radius = 10;
+    // double circumference = 2 * PI * radius;
 
-    const int WIDTH = 1920;
-    const int HIGHT = 1080;
+    // const int WIDTH = 1920;
+    // const int HIGHT = 1080;
 
     //std::cout << circumference << "cm";
 
 ///////////////////////////// NAMESPACE /////////////////////////////^^^
-    int x = 0;
+    // int x = 0;
 
     //std::cout << first::x << "\n";
 
@@ -76,10 +76,10 @@ int main(){
 // new identifier for an existing type, reduces typos (include <vector> introduced)
 
 
-    text_t firstname = "CHUZ";
+    text_t firstname = "";
     number_t CUZage = 31;
 
-    std::cout << firstname << ", and their age is ";
+    std::cout << firstname << "and your ";
     std::cout << CUZage << "\n";
     
 
